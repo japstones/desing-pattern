@@ -13,11 +13,13 @@ public class ElectricAcousticGuitar extends Guitar{
 
     @Override
     void onGuitar() {
+        System.out.println("On Guitar");
         this.acoustic.play();
     }
 
     @Override
     void offGuitar() {
+        System.out.println("Off Guitar");
         this.acoustic.leaveGuitar();
     }
 }

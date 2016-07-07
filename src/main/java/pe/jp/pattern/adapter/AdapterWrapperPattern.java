@@ -8,7 +8,7 @@ public class AdapterWrapperPattern {
         Guitar eGuitar = new ElectricGuitar();
         eGuitar.onGuitar();
         eGuitar.offGuitar();
-
+        System.out.println("\n");
         Guitar eAGuitar = new ElectricAcousticGuitar();
         eAGuitar.onGuitar();
         eAGuitar.offGuitar();
