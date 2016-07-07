@@ -6,7 +6,7 @@ package pe.jp.pattern.adapter;
 public class ElectricGuitar extends Guitar {
     @Override
     void onGuitar() {
-        System.out.println("Playing guitar");
+        System.out.println("Playing Electronic Guitar");
     }
 
     @Override
