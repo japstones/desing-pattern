@@ -1,4 +1,4 @@
-package pe.jp.pattern.brigde;
+package pe.jp.pattern.brigde.motor;
 
 /**
  * Created by Joel on 7/07/16.
